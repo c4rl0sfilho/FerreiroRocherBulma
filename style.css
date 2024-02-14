@@ -1,0 +1,53 @@
+*{
+    font-family: 'Indie Flower', cursive;
+}
+
+#coluna{
+    background-color: transparent;
+}
+
+#marrom{
+    background-color: #2E1012;
+}
+
+#centro{
+    background-color: #F3CC4D;
+}
+
+html{
+    overflow: hidden !important;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #2E1012;
+    background-image: url(./img/background.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.columns{
+    height: 100%;
+    width: 100%;
+}
+@media (max-width: 1024px) {
+    body { background: url(./img/image\ 1\ copy.svg) center;
+    background-color: #f3cc4d;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    #centro{
+        background-color: transparent;
+    }
+}
+@media (max-width:  768px) { 
+    body { background: url(./img/image\ 1\ copy.svg) center;
+        background-color: #f3cc4d;
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+        #centro{
+            background-color: transparent;
+        }
+}
